@@ -1,0 +1,137 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 392px;
+}
+.header-item {
+    display: flex;
+    align-items: center;
+    gap: 92px;
+}
+.header-logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 97px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-nav {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    gap: 46px;
+}
+.header-nav a {
+    text-decoration: none;
+    color: #2B3541;
+    font-size: 18px;
+    font-weight: 400;
+}
+.social-header {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-left: 0;
+}
+.instagram {
+    display: block;
+    background-image: url(../images/IN.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.facebook {
+    display: block;
+    background-image: url(../images/FB.svg);
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.banner {
+    padding-top: 186px;
+    margin: 0;
+}
+.banner-image {
+    position: relative;
+}
+.runninggirl {
+    
+}
+.banner-box {
+    display: flex;
+    position: absolute;
+}
+.banner-image {
+    position: relative;
+    right: 305px;
+    top: 69px;
+}
+.runninggirl {
+    
+}
+.banner-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #2B3541;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    width: 634px;
+}
+.banner-main-text {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 125%;
+    letter-spacing: 0.03em;
+    color: #2B3541;
+    width: 351px;
+}
+.banner-text-link {
+    margin-left: 93px;
+}
+.banner-text {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 150%;
+    color: #2B3541;
+    width: 297px;
+    margin-top: -18px;
+    margin-bottom: 55px;
+}
+.banner-link {
+    color: #2B3541;
+    border: none;
+    margin: 0;
+    background-color: #FBF138;
+    padding: 18px 28px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.banner-btn {
+    margin-top: 202px;
+    background: url(../images/arrow.svg);
+    width: 52px;
+    height: 55px;
+    border: none;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
