@@ -37,7 +37,24 @@ body {
     text-decoration: none;
     color: #2B3541;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 300;
+}
+.header-nav a.about::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background: #2B3541;
+    display: none;
+}
+.header-nav a.about:hover::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background: #2B3541;
+    display: block;
+    margin-top: 7px;
 }
 .social-header {
     display: flex;
