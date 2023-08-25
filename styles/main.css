@@ -93,6 +93,9 @@ body {
     transform: scale(1.2);
     opacity: 1;
 }
+.bg {
+    margin-bottom: 160px;
+}
 .banner {
     padding-top: 186px;
     margin: 0;
@@ -164,4 +167,9 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
     cursor: pointer;
+}
+.event-header {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
 }
