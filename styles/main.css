@@ -266,31 +266,31 @@ body {
 }
 .gradient:hover .event-btn-hover {
     opacity: 1;
- }
- .shedule-header {
+}
+.shedule-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
 
- }
- .shedule-header-text {
+}
+.shedule-header-text {
     color: #2B3541;
     font-size: 40px;
     font-weight: 700;
- }
- .shedule-header-days {
+}
+.shedule-header-days {
     font-size: 28px;
     font-weight: 700;
     color: #2B3541;
- }
- .shedule-grid {
+}
+.shedule-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 314px 73px;
     gap: 20px;
     margin-bottom: 154px;
- }
- .shedule-grid-item {
+}
+.shedule-grid-item {
     border: 1px solid var(--dark, #2B3541);
     box-sizing: border-box;
     display: flex;
@@ -300,16 +300,14 @@ body {
     cursor: pointer;
     padding: 0px 30px;
  }
- .shedule-date {
+.shedule-date {
     text-align: right;
     margin-top: 20px;
     font-size: 18px;
     font-weight: 400;
- }
- .shedule-img {
+}
 
- }
- .shedule-title {
+.shedule-title {
     font-size: 18px;
     font-weight: 700;
     margin-top: 40px;
