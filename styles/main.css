@@ -450,10 +450,8 @@ input[type="email"]:invalid {
 .custom-checkbox {
     position: absolute;
     z-index: -1;
-    opacity: 0;
-    
+    opacity: 0;   
 }
-
 .custom-checkbox+label {
     display: inline-flex;
     align-items: center;
@@ -470,13 +468,91 @@ input[type="email"]:invalid {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
 .custom-checkbox+label:hover {
     cursor: pointer;
 }
-
 .custom-checkbox:checked+label::before {
     border-color: #2B3541;
     background-color: #2B3541;
     background-image: url(../images/check_box.svg);   
+}
+
+/* About */
+
+.about-us-description {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 160px;
+    margin-bottom: 62px;
+}
+
+.about-us-sign-up {
+    display: block;
+} 
+
+
+.about-us-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #2B3541;
+    margin: 0 auto;
+}
+.about-us-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B3541;
+    width: 483px;
+    height: 108px;
+    margin-top: 18px;
+    line-height: 150%;
+    margin-bottom: 54px;
+}
+
+.sign-up-btn {
+    background-color: #FBF138;
+    box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+    border: none;
+    padding: 20px 51px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2B3541;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+   
+.sign-up-btn:hover {
+    background-color: #2B3541;
+    box-shadow: 0px 13px 24px rgba(43, 53, 65, 0.2);
+    color: #FBF138;
+    cursor: pointer;
+}
+
+.about-us-picture {
+    width: 50%;
+}
+
+.about-us-grid {
+    display: flex;
+    gap: 67px;
+}
+
+
+.about-us-grid-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    color: #2B3541;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.about-us-grid-item-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: #2B3541;
+    opacity: 0.6; 
+    text-align: left;
 }
