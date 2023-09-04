@@ -140,25 +140,53 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
-    <section>
-        <div class="bg-email">
-            <div class="container">
-                <div class="form">
-                    <h2 class="form-title">Подпишитесь на рассылку</h2>
-                    <form action="">
-                        <div class="form-input">
-                            <input type="email" name="email" placeholder="Ваш e-mail" class="form-email" required>
-                            <input type="submit" name="submit" id="submit" value="Подписаться" class="form-email-btn">
+    <section class="subscription" id="subscription">
+        <div class="container">
+            <div class="mail-box">
+                <h2 class="subscription-title">Подпишитесь на&nbsp;рассылку</h2>
+                <form class="subscription-form">
+                    <div class="email-plus-checkbox">
+                        <input class="input" type="email" placeholder="Ваш e-mail">
+                        <div class="subscription-agreement">
+                            <input type="checkbox" class="custom-checkbox" id="agreementCheckbox">
+                            <label for="agreementCheckbox"></label>
+                            <p class="agreement-text">Согласен с обработкой <a href="#" class="personal_data">персональных данных</a></p>
                         </div>
-                        <div class="agreement">
-                            <input type="checkbox" id="01" class="checkbox">
-                            <label for="01">Согласен с обработкой <a href="https://annblok.ru/workshop" target="_blank">персональных данных</a></label>
-                        </div>
-                    </form>
+                    </div>
+                    <button type="submit" class="subscription-btn">подписаться</button>
+                </form>
+            </div> 
+        </div>
+    </section>
+    <section class="about-us" id="companyDescription">
+        <div class="container">
+            <div class="about-us-description">
+                <div class="about-us-sign-up">
+                    <h2 class="about-us-title">О компании</h2>
+                    <p class="about-us-text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь с нами и вы сами увидите, что мы проводим не только онлайн-тренировки</p>
+                    <a href="#" class="sign-up-btn">записаться</a>
+                </div>
+                    <img src="images/@2x/trainer@2x.png" class="about-us-picture" alt="Боксерша">
+            </div>
+            <div class="about-us-grid">
+                <div class="about-us-grid-item">
+                    <h2 class="about-us-grid-item-title">Экономия времени</h2>
+                    <p class="about-us-grid-item-text">Не нужно тратить время на дорогу</p>
+                </div>
+                <div class="about-us-grid-item">
+                    <h2 class="about-us-grid-item-title">Индивидуальный подход</h2>
+                    <p class="about-us-grid-item-text">Внимание тренера пренадлежит только вам</p>
+                </div>
+                <div class="about-us-grid-item">
+                    <h2 class="about-us-grid-item-title">Экономия денег</h2>
+                    <p class="about-us-grid-item-text">Средняя цена одной тренировки - 700₽</p>
+                </div>
+                <div class="about-us-grid-item">
+                    <h2 class="about-us-grid-item-title">Опытный персонал</h2>
+                    <p class="about-us-grid-item-text">Стаж работы у наших тренеров от 5 лет</p>
                 </div>
             </div>
         </div>
