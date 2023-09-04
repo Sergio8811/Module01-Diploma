@@ -34,33 +34,21 @@ nav ul {
     gap: 54px;
     list-style: none;
     padding: 0;
-  }
-nav ul li {
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
     white-space: nowrap;
-    color: rgba(43, 53, 65, 1);
-    cursor: pointer;
 }
- nav ul li a {
+.header-btn {
+    position: relative;
+    color: #2B3541;
     text-decoration: none;
-    color: #443737;
+    font-weight: 400;
     font-size: 18px;
-    font-weight: 300;
 }
- nav ul li::after {
-    content: "";
-    height: 1px;
-    width: 100%;
-    background: #2b3541;
-    border-radius: 1px;
-    display: block;
-    background: transparent;
-}
-nav ul li:hover::after {
-    background: #2b3541;
+.header-btn:hover {
+    cursor: pointer;
+    top: -5px;
+    border-bottom: 1px #2B3541 solid;
+    padding-bottom: 10px;
+    transition: ;
 }
 .social-header {
     display: flex;
