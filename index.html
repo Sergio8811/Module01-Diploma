@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
 </head>
 <main>
     <header id = "headerTop">
@@ -16,6 +17,9 @@
             <div class="header">
                 <div class="header-item">
                     <a href="#" class="header-logo"></a>
+                    <div class="header-burger">
+                        <button class="burger" onclick="openModal()"></button>
+                    </div>
                     <nav>
                         <ul class="header-nav">
                             <li><a href="#" class="header-btn">Мероприятия</a></li>
@@ -31,27 +35,25 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="bg">
-            <div class="container">
-                <div class="banner-box">
-                    <div class="banner">
-                        <h1 class="banner-title">онлайн тренировки любой сложности</h1>
-                        <p class="banner-main-text">&gt 15 тренировок</p>
-                        <div class="banner-text-link">
-                            <p class="banner-text">в области спортивной физиологии и нутрициологии</p>
-                            <a href="#" class="banner-link">узнать подробнее</a>
-                        </div>
-                        <button type="button" class="banner-btn"></button>
-                    </div>
-                    <div class="banner-image">
-                        <img class="runninggirl" src="images/girl.png" alt="runninggirl">
-                    </div>
-                    <div class="girlbackground">
-                        <img src="images/girlbackground.png" alt="Fon">
+    <section class="banner">
+        <div class="banner-content">
+            <div class="banner-container">
+                <div class="banner-body">
+                    <h1 class="banner-title">онлайн тренировки любой сложности</h1>
+                    <h2 class="banner-subtitle">&gt; 15 тренировок</h2>
+                    <div class="banner-text-button">
+                        <p class="text">в области спортивной физиологии и нутрициологии</p>
+                        <a href="#" class="banner-button">узнать подробнее</a>
                     </div>
                 </div>
+                <a href="#clubevents" class="arrow">
+                    <img src="images/arrow.svg" alt="Стрелка">
+                </a>
             </div>
+        </div>
+        <div class="banner-image">
+            <div class="rectangle"></div>
+            <img src="images/@2x/girl.png" alt="Бегущая девушка">
         </div>
     </section>
     <section>
@@ -191,5 +193,59 @@
             </div>
         </div>
     </section>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <div class="firstrow">
+                        <a href="#" class="footer-logo"></a>
+                        <nav>
+                            <ul class="footer-nav">
+                                <li><a href="#" class="header-btn">Мероприятия</a></li>
+                                <li><a href="#" class="header-btn">Расписание</a></li>
+                                <li><a href="#" class="header-btn">О компании</a></li>
+                            </ul>
+                        </nav>
+                        <div class="contacts">
+                            <p><a href="mailto:info@freefit.com" class="email">info@freefit.com</a></p>
+                            <ul class="social-footer">
+                                <li class="social-icon instagram"><a href="#" class="instagram" target="_blank"></a></li>
+                                <li class="social-icon facebook"><a href="#" class="facebook" target="_blank"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <p class="cr">© 2023, Все права защищены</p>
+                        <p class="frontendblok">Сделано в рамках курса учебной платформы <a href="#" class="frontendblok-link">FrontendBlok</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <a href="#" class="header-logo"></a>
+            <ul class="header-nav">
+                <li><a href="#" class="header-btn">Мероприятия</a></li>
+                <li><a href="#" class="header-btn">Расписание</a></li>
+                <li><a href="#" class="header-btn">О компании</a></li>
+            </ul>
+            <ul class="social-header">
+                <li class="social-icon instagram"><a href="#" class="instagram" target="_blank"></a></li>
+                <li class="social-icon facebook"><a href="#" class="facebook" target="_blank"></a></li>
+            </ul>
+        </div>
+        <div class="modal-bottom"></div>
+        <button class="burger-close" onclick="closeModal()"></button>
+    </div>
+    <script>
+            function openModal() {
+                document.getElementById("modal").style.top = "0px";
+            }
+
+            function closeModal() {
+                document.getElementById("modal").style.top = "-1000px";
+            }
+    </script>
 </main>
 </html>
